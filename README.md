@@ -2,6 +2,17 @@
 
 This is a fork of [Unimock](https://github.com/unimock)'s excellent work on implementing a containerized version of the [ISPConfig](https://www.ispconfig.org) web-hosting suite.
 
+## Requirements Check Compatible
+
+- Operating System: ISPConfig 3.2.9 supports several Linux distributions, including Debian 9 and 10, Ubuntu 18.04 and 20.04, and CentOS 7 and 8.
+- Web server: ISPConfig 3.2.9 can work with either Apache or Nginx web server.
+- PHP: ISPConfig 3.2.9 requires PHP version 7.0 or higher, and version 7.3 or higher is recommended.
+- MySQL or MariaDB: ISPConfig 3.2.9 needs a database server, and it supports both MySQL and MariaDB.
+- Mail server: ISPConfig 3.2.9 can work with either Postfix or Exim mail server.
+- Firewall: ISPConfig 3.2.9 requires that your server has a firewall installed and configured.
+- DNS server: ISPConfig 3.2.9 can work with either BIND or MyDNS name server.
+- Server hardware: ISPConfig 3.2.9 can run on any hardware that meets the minimum system requirements of the Linux distribution you are using.
+
 ## Caveats
 
 * This project is suitable for single-site usage, only! Chiefly, this is because of the lack of support for the [quota tool](https://git.ispconfig.org/ispconfig/ispconfig3/issues/2986)
